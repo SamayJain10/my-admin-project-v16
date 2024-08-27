@@ -1,0 +1,8 @@
+<div class="landing-container">
+    <h1>Welcome to the Admin Dashboard</h1>
+    <div *ngIf="user">
+      <p>Hello, {{ user.name }}!</p>
+      <p>Your email: {{ user.email }}</p>
+    </div>
+    <button (click)="logout()">Logout</button>
+  </div>
