@@ -40,3 +40,76 @@ Before you begin, ensure you have met the following requirements:
   ```bash
   npm install -g @angular/cli@16
   ```
+
+## Project Structure
+
+my-admin-project/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── login/
+│   │   │   │   ├── login.component.ts
+│   │   │   │   ├── login.component.html
+│   │   │   │   └── login.component.css
+│   │   │   ├── signup/
+│   │   │   │   ├── signup.component.ts
+│   │   │   │   ├── signup.component.html
+│   │   │   │   └── signup.component.css
+│   │   │   └── user-detail/
+│   │   │       ├── user-detail.component.ts
+│   │   │       ├── user-detail.component.html
+│   │   │       └── user-detail.component.css
+│   │   ├── services/
+│   │   │   └── auth.service.ts
+│   │   ├── guards/
+│   │   │   └── auth.guard.ts
+│   │   ├── app-routing.module.ts
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   └── app.component.css
+│   ├── assets/
+│   │   └── users.json
+│   ├── styles.css
+│   └── index.html
+├── angular.json
+├── package.json
+└── tsconfig.json
+
+## Setup and Installation
+
+1. Clone the Repository:
+
+```bash
+git clone https://github.com/SamayJain10/my-admin-project-v16.git
+cd my-admin-project-v16
+```
+2. Install Dependencies:
+
+Install the required Node.js packages by running:
+
+```bash
+npm install
+```
+
+3. Ensure Node.js and Angular CLI Versions:
+
+Check that you have Node.js 16 installed:
+
+```bash
+node -v
+```
+
+4. Ensure Angular CLI 16 is installed:
+
+```bash
+ng version
+```
+5. Run the Application:
+
+Start the Angular development server:
+
+```bash
+ng serve
+```
+
+The application will be available at http://localhost:4200.
