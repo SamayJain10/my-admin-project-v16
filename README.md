@@ -113,6 +113,24 @@ ng serve
 
 The application will be available at http://localhost:4200.
 
+## Sample Users
+
+[ 
+    {
+    "name": "Samay Jain",
+    "email": "samay@gmail.com",
+    "password": "qwerty12345",
+    "confirmPassword": "qwerty12345"
+  },
+  {
+    "name": "Akash Singh",
+    "email": "akash@gmail.com",
+    "password": "akash1234",
+    "confirmPassword": "akash1234"
+  }
+
+]
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
