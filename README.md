@@ -41,39 +41,6 @@ Before you begin, ensure you have met the following requirements:
   npm install -g @angular/cli@16
   ```
 
-
-my-admin-project/
-├── src/
-│   ├── app/
-│   │   ├── components/
-│   │   │   ├── login/
-│   │   │   │   ├── login.component.ts
-│   │   │   │   ├── login.component.html
-│   │   │   │   └── login.component.css
-│   │   │   ├── signup/
-│   │   │   │   ├── signup.component.ts
-│   │   │   │   ├── signup.component.html
-│   │   │   │   └── signup.component.css
-│   │   │   └── user-detail/
-│   │   │       ├── user-detail.component.ts
-│   │   │       ├── user-detail.component.html
-│   │   │       └── user-detail.component.css
-│   │   ├── services/
-│   │   │   └── auth.service.ts
-│   │   ├── guards/
-│   │   │   └── auth.guard.ts
-│   │   ├── app-routing.module.ts
-│   │   ├── app.component.ts
-│   │   ├── app.component.html
-│   │   └── app.component.css
-│   ├── assets/
-│   │   └── users.json
-│   ├── styles.css
-│   └── index.html
-├── angular.json
-├── package.json
-└── tsconfig.json
-
 ## Setup and Installation
 
 1. Clone the Repository:
@@ -115,21 +82,10 @@ The application will be available at http://localhost:4200.
 
 ## Sample Users
 
-[ 
-    {
-    "name": "Samay Jain",
-    "email": "samay@gmail.com",
-    "password": "qwerty12345",
-    "confirmPassword": "qwerty12345"
-  },
-  {
-    "name": "Akash Singh",
-    "email": "akash@gmail.com",
-    "password": "akash1234",
-    "confirmPassword": "akash1234"
-  }
+    {"name": "Samay Jain","email": "samay@gmail.com","password": "qwerty12345","confirmPassword": "qwerty12345"}
+    
+    {"name": "Akash Singh","email": "akash@gmail.com","password": "akash1234","confirmPassword": "akash1234"}
 
-]
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
