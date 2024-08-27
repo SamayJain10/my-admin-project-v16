@@ -41,7 +41,6 @@ Before you begin, ensure you have met the following requirements:
   npm install -g @angular/cli@16
   ```
 
-## Project Structure
 
 my-admin-project/
 ├── src/
@@ -113,3 +112,9 @@ ng serve
 ```
 
 The application will be available at http://localhost:4200.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+Thanks to all contributors and supporters of this project
